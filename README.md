@@ -1,13 +1,22 @@
 # speech_To_text
 I have to method to do it 
-first : The following is  using Watson to real time transcribe from Speech to Text using the websockets streaming API.
+
+#first : The following is  using Watson to real time transcribe from Speech to Text using the websockets streaming API.
+
 git clone https://github.com/nicknochnack/RealTimeSpeechToText/tree/main/watson-streaming-stt
+
 virtualenv -p python3 .venv
+
 source .venv/bin/activate
+
 cd watson-streaming-stt
+
 pip install pyaudio
+
 pip install websocket-client
+
 Getting Started by :
+
 python3.9 transcribe.py -t 2
 
 
@@ -51,6 +60,8 @@ with open('/Users/abeerabdullah/Desktop/winston.mp3', 'rb') as f:
         out.writelines(text)
 				
        <img width="1407" alt="Screen Shot 1442-12-29 at 6 03 24 AM" src="https://user-images.githubusercontent.com/56722657/128619536-32c6f0a3-9310-46b6-b3e1-c9bcd19ccb2b.png">
+
+<img width="1407" alt="Screen Shot 1442-12-29 at 6 03 24 AM" src="https://user-images.githubusercontent.com/56722657/128619847-a0ed1dd5-d41e-4504-8e6e-75a82ea116b9.png">
 
 
 
